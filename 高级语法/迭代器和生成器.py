@@ -18,7 +18,7 @@ for i in a:
 gen = (i*i for i in range(6))
 print(list(gen))
 
-# 用生成器的意义
+# 用生成器的意义.从输出可以看出，用生成器生成的可迭代对象所耗计算机的时间和空间都远小于直接构造;因为生成器产生的是对象，一个公式而已
 import sys
 import time
 t1 = time.time()
